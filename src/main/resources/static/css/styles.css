@@ -1,0 +1,42 @@
+.body {
+    background-color: #787b7b;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Adicionado para alinhar o conteúdo verticalmente */
+}
+
+.container {
+    text-align: center;
+}
+
+.title {
+    margin-bottom: 20px; /* Espaço entre o título e o card */
+    color: white; /* Cor do título */
+}
+
+.card {
+    width: 30rem;
+    margin: auto; /* Centraliza o card horizontalmente na página */
+    border-radius: 20px; /* Adiciona bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(42, 47, 76, 0.6); /* Adiciona sombra ao redor do card */
+}
+
+.card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#qr-code-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.input-lg {
+    width: 100%; /* Ajuste conforme necessário */
+    padding: 10px; /* Ajuste o preenchimento conforme necessário */
+    font-size: 1.25rem; /* Aumenta o tamanho da fonte */
+}
