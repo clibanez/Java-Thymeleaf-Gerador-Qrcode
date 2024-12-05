@@ -9,19 +9,20 @@
           crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
-<body class="body">
+<body>
 
 <div class="container">
     <h1 class="title">Clibanez Caldas</h1>
-    <div class="card shadow">
+    <div class="card shadow-lg">
         <div class="card-body">
-            <div class="col-md-6 centered-form" id="qr-code-container">
+            <div class="col-md-12" id="qr-code-container">
                 <h1>QR Code Gerado</h1>
                 <div id="qr-code-image"></div>
             </div>
+
             <h1>Gerador de QR Code</h1>
             <form id="qr-form">
-                <div class="mb-3">
+                <div class="mb-4">
                     <label for="texto" class="form-label">Digite o conteúdo:</label>
                     <input type="text" class="form-control form-control-lg" id="texto" name="texto" required>
                 </div>
@@ -30,9 +31,6 @@
         </div>
     </div>
 </div>
-
-</div>
-
 
 <script src="js/script.js"></script>
 
