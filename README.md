@@ -60,3 +60,10 @@ qrcode-generator/
     <li><b>GitHub</b>: <a href="https://github.com/clibanez" style="color: #007396;">Clibanez</a></li>
   </ul>
 </div>
+
+
+#!/bin/bash
+mvn clean package spring-boot:repackage -DskipTests
+scp  target/geradorqrcode-0.0.1-SNAPSHOT.jar root@clibanez-caldas.vps-kinghost.net:/root
+scp  target/geradorqrcode-0.0.1-SNAPSHOT.jar servidor@192.168.0.33:/app
+s
